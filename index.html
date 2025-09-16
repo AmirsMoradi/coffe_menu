@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>منوی کافه آروما</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;600&display=swap');
+
+    body {
+      font-family: 'Vazirmatn', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(135deg, #e0f7fa, #f1f8e9, #fff3e0);
+      color: #333;
+    }
+
+    header {
+      text-align: center;
+      padding: 30px;
+      background: linear-gradient(90deg, #26c6da, #66bb6a, #ffb74d);
+      color: #fff;
+      border-bottom: 3px solid #004d40;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 34px;
+    }
+
+    header p {
+      margin-top: 8px;
+      font-size: 18px;
+      color: #fce4ec;
+    }
+
+    .menu-section {
+      max-width: 720px;
+      margin: 25px auto;
+      background: rgba(255, 255, 255, 0.95);
+      border-radius: 16px;
+      padding: 18px 22px;
+      backdrop-filter: blur(8px);
+      box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+    }
+
+    .menu-section h2 {
+      font-size: 22px;
+      color: #00796b;
+      border-bottom: 2px solid #ff9800;
+      padding-bottom: 8px;
+      margin-bottom: 12px;
+    }
+
+
+    .menu-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 18px;
+      padding: 10px 0;
+      border-bottom: 1px dashed rgba(0,0,0,0.12);
+      gap: 12px;
+      direction: rtl;
+    }
+
+    .menu-item:last-child {
+      border-bottom: none;
+    }
+
+    .item-name {
+      flex: 1 1 auto;
+      text-align: right;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .item-extra {
+      font-size: 13px;
+      color: #777;
+      display: inline-block;
+      white-space: nowrap;
+    }
+
+    .price {
+      color: #0288d1;
+      font-weight: bold;
+      min-width: 220px;
+      text-align: left;
+      white-space: nowrap;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+      background: linear-gradient(90deg, #26c6da, #66bb6a, #ffb74d);
+      margin-top: 30px;
+      color: #fff;
+      font-weight: bold;
+    }
+
+
+    @media (max-width: 480px) {
+      .price { min-width: 140px; font-size: 16px; }
+      .menu-item { font-size: 16px; padding: 8px 0; }
+      header h1 { font-size: 28px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>☕ منوی کافه آروما</h1>
+    <p>لحظه‌ای خوش با طعم آرامش</p>
+  </header>
+
+
+  <div class="menu-section">
+    <h2>نوشیدنی‌های گرم</h2>
+    <div class="menu-item">
+      <div class="item-name">هات چاکلت</div>
+      <div class="price">۸۰.۰۰۰ هزار تومان</div>
+    </div>
+    <div class="menu-item">
+      <div class="item-name">چای ماسالا</div>
+      <div class="price">۷۰.۰۰۰ هزار تومان</div>
+    </div>
+    <div class="menu-item">
+      <div class="item-name">کاپوچینو</div>
+      <div class="price">۷۰.۰۰۰ هزار تومان</div>
+    </div>
+  </div>
+
+
+<div class="menu-section">
+  <h2>نوشیدنی‌های بر پایه اسپرسو</h2>
+  <div class="menu-item">لته <span class="price">۷۰.۰۰۰ (single) — ۸۰.۰۰۰ (double)</span></div>
+  <div class="menu-item">موکتل <span class="price">۸۰.۰۰۰ (single) — ۹۰.۰۰۰ (double)</span></div>
+  <div class="menu-item">کاپوچینو <span class="price">۷۰.۰۰۰ (single) — ۸۰.۰۰۰ (double)</span></div>
+  <div class="menu-item">ماکیاتو <span class="price">۸۰.۰۰۰ (single) — ۹۰.۰۰۰ (double)</span></div>
+  <div class="menu-item">آیس لته <span class="price">۸۰.۰۰۰ (single) — ۹۰.۰۰۰ (double)</span></div>
+  <div class="menu-item">آفوگاتو <span class="price">۹۵.۰۰۰ هزار تومان</span></div>
+  <div class="menu-item">آیس ماکیاتو کارامل <span class="price">۸۵.۰۰۰ (single) — ۹۵.۰۰۰ (double)</span></div>
+  <div class="menu-item">آیس ماکیاتو شکلات <span class="price">۸۵.۰۰۰ (single) — ۹۵.۰۰۰ (double)</span></div>
+  <div class="menu-item">آیس ماکیاتو وانیل <span class="price">۸۵.۰۰۰ (single) — ۹۵.۰۰۰ (double)</span></div>
+  <div class="menu-item">آیس ماکیاتو فندق <span class="price">۸۵.۰۰۰ (single) — ۹۵.۰۰۰ (double)</span></div>
+  <div class="menu-item">آیس ماکیاتو توت فرنگی <span class="price">۸۵.۰۰۰ (single) — ۹۵.۰۰۰ (double)</span></div>
+  <div class="menu-item">آیس ماکیاتو بلوبری <span class="price">۸۵.۰۰۰ (single) — ۹۵.۰۰۰ (double)</span></div>
+</div>
+
+
+
+
+  <div class="menu-section">
+    <h2>چای و دمنوش</h2>
+
+    <div class="menu-item">
+      <div class="item-name">چای</div>
+      <div class="price">۳۰.۰۰۰ هزار تومان</div>
+    </div>
+
+    <div class="menu-item">
+      <div class="item-name">چای طعم‌دار <span class="item-extra">(دارچین، هل، بهارنارنج، زنجبیل، لیمو، گل محمدی، چای ترش)</span></div>
+      <div class="price">۴۰.۰۰۰ هزار تومان</div>
+    </div>
+
+    <div class="menu-item">
+      <div class="item-name">دمنوش آرام‌بخش</div>
+      <div class="price">۷۰.۰۰۰ هزار تومان</div>
+    </div>
+
+    <div class="menu-item">
+      <div class="item-name">دمنوش سرماخوردگی</div>
+      <div class="price">۷۰.۰۰۰ هزار تومان</div>
+    </div>
+
+    <div class="menu-item">
+      <div class="item-name">دمنوش لیمو و زنجبیل</div>
+      <div class="price">۵۰.۰۰۰ هزار تومان</div>
+    </div>
+
+    <div class="menu-item">
+      <div class="item-name">دمنوش سیب و دارچین</div>
+      <div class="price">۶۰.۰۰۰ هزار تومان</div>
+    </div>
+
+    <div class="menu-item">
+      <div class="item-name">دمنوش نعنا و دارچین</div>
+      <div class="price">۵۰.۰۰۰ هزار تومان</div>
+    </div>
+
+    <div class="menu-item">
+      <div class="item-name">دمنوش هل و زعفران</div>
+      <div class="price">۶۰.۰۰۰ هزار تومان</div>
+    </div>
+
+    <div class="menu-item">
+      <div class="item-name">دمنوش چای ترش</div>
+      <div class="price">۵۰.۰۰۰ هزار تومان</div>
+    </div>
+
+    <div class="menu-item">
+      <div class="item-name">دمنوش بهارنارنج و گل محمدی</div>
+      <div class="price">۵۰.۰۰۰ هزار تومان</div>
+    </div>
+
+  </div>
+
+  
+  <div class="menu-section">
+    <h2>بار سرد</h2>
+
+    <div class="menu-item">
+      <div class="item-name">هاوایی <span class="item-extra">(آناناس، نارگیل، بلوبری)</span></div>
+      <div class="price">۷۰.۰۰۰ هزار تومان</div>
+    </div>
+
+    <div class="menu-item">
+      <div class="item-name">موکتل ترش <span class="item-extra">(آلبالو، انار، توت فرنگی)</span></div>
+      <div class="price">۸۰.۰۰۰ هزار تومان</div>
+    </div>
+
+    <div class="menu-item">
+      <div class="item-name">سیب دارچین</div>
+      <div class="price">۷۰.۰۰۰ هزار تومان</div>
+    </div>
+
+    <div class="menu-item">
+      <div class="item-name">موکتل میوه‌های هسته‌دار</div>
+      <div class="price">۷۰.۰۰۰ هزار تومان</div>
+    </div>
+
+    <div class="menu-item">
+      <div class="item-name">موهیتو</div>
+      <div class="price">۷۰.۰۰۰ هزار تومان</div>
+    </div>
+
+    <div class="menu-item">
+      <div class="item-name">موهیتو انبه</div>
+      <div class="price">۸۰.۰۰۰ هزار تومان</div>
+    </div>
+
+    <div class="menu-item">
+      <div class="item-name">موهیتو خیار</div>
+      <div class="price">۸۰.۰۰۰ هزار تومان</div>
+    </div>
+
+    <div class="menu-item">
+      <div class="item-name">رز انبه</div>
+      <div class="price">۷۰.۰۰۰ هزار تومان</div>
+    </div>
+
+  </div>
+
+
+  <div class="menu-section">
+    <h2>شیک‌ها</h2>
+
+    <div class="menu-item">
+      <div class="item-name">وانیل</div>
+      <div class="price">۷۰.۰۰۰ هزار تومان</div>
+    </div>
+
+    <div class="menu-item">
+      <div class="item-name">شکلات</div>
+      <div class="price">۸۰.۰۰۰ هزار تومان</div>
+    </div>
+
+    <div class="menu-item">
+      <div class="item-name">شکلات و موز</div>
+      <div class="price">۹۰.۰۰۰ هزار تومان</div>
+    </div>
+
+    <div class="menu-item">
+      <div class="item-name">بادام زمینی</div>
+      <div class="price">۹۰.۰۰۰ هزار تومان</div>
+    </div>
+
+    <div class="menu-item">
+      <div class="item-name">توت فرنگی</div>
+      <div class="price">۸۰.۰۰۰ هزار تومان</div>
+    </div>
+
+    <div class="menu-item">
+      <div class="item-name">پسته</div>
+      <div class="price">۱۱۰.۰۰۰ هزار تومان</div>
+    </div>
+
+  </div>
+
+  <footer>
+    ©  کافه آروما
+  </footer>
+</body>
+</html>
